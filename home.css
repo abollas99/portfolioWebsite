@@ -1,4 +1,3 @@
-/* Add a black background color to the top navigation */
 html {
     font-family: sans-serif;
 
@@ -8,29 +7,36 @@ body {
     font-size: 20px;
 
 }
-#topNav {
+#liicon {
+  display: flex;
+  margin-top: 8%;
+  justify-content: center;
+  color: white;
+}
+#topNav{
     background-color: #50677a;
     width: 100%;
     height: 48px;
-    margin: 0 auto;
+    max-height: 64px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
+#topNav .rightNav{
+  display: flex;
+  justify-content: flex-end;
+}
+
 #topNav a {
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 17px;
   }
-  
-  /* Change the color of links on hover */
 #topNav a:hover {
     font-weight: 900;
     color: white
   }
-  
-  /* Add a color to the active/current link */
 #topNav a.active {
     font-size: 18px;
     font-weight: 900;
