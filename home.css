@@ -3,16 +3,33 @@ html {
 
 }
 body {
-    background-color: #002E56;
+    background-color: #aed9ff;
     font-size: 20px;
 
 }
 #icon-git, #icon-li {
   color: white;
 }
-#icon-li i:hover{
+#icon-li:hover{
   color: #0077b5;
 }
-#icon-git i:hover{
+.navTabs {
+  color: white;
+
+}
+.navTabs:hover{
+  color: gray;
+}
+
+#icon-git:hover{
   color: rgb(0, 0, 0);
+}
+#Brand {
+  font-size: 2em;
+  font-weight: 900;
+  color: rgb(0, 195, 255);
+}
+#current{ 
+  font-weight: 600;
+  color: rgb(104, 170, 255);
 }
