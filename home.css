@@ -33,3 +33,11 @@ body {
   font-weight: 600;
   color: rgb(104, 170, 255);
 }
+#intro{
+  background: transparent url(water.jpg) no-repeat center center;
+  background-size: cover;
+  font-size: 2em;
+  flex: auto;
+  color: white;
+  justify-content: center;
+}
