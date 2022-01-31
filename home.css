@@ -3,7 +3,7 @@ html {
 
 }
 body {
-    background-color: #aed9ff;
+    background-color: #50697e;
     font-size: 20px;
 
 }
@@ -33,11 +33,32 @@ body {
   font-weight: 600;
   color: rgb(104, 170, 255);
 }
-#intro{
-  background: transparent url(water.jpg) no-repeat center center;
+/*.textField{
+  display: flex;
+  background-image: transparent url(water.jpg) no-repeat center center;
   background-size: cover;
   font-size: 2em;
-  flex: auto;
   color: white;
   justify-content: center;
+  border: black 5px solid;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}*/
+.textField {
+  background-image: url(sky.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 200px;
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Steelfish Rg', 'helvetica neue',
+           helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
 }
